@@ -6,8 +6,8 @@ app.get('/gil', (req, res) => {
     res.send('¡Hola Mundo gillll!');
 });
 
-app.get('/', (req, res) => {
-    res.send('putoooooooo holaa!');
+app.get('/caca', (req, res) => {
+    res.send('putooodsdsooooo holaa!');
 });
 
 app.listen(PORT, () => {
