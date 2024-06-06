@@ -10,6 +10,10 @@ app.get('/caca', (req, res) => {
     res.send('putooodsdsooooo holaa!');
 });
 
+app.get('/', (req, res) => {
+    res.send('putoooooooo holaa!');
+});
+
 app.listen(PORT, () => {
     console.log(`Servidor Express escuchando en el puerto ${PORT}`);
 });
